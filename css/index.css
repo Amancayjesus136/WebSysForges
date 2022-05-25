@@ -67,6 +67,7 @@ h5{
 .curri {
   border-radius: 20px;
   font-size: 15px;
+  background: var(--primary);
 }
 .imagen {
   margin-left: 125%;
@@ -87,4 +88,25 @@ h5{
 }
 .descripcion {
   text-align: center;
+  margin-top: 100px;
+  width: 1200px;
+  font-size: 25px
+}
+.flecha {
+  text-align: center;
+  margin-top: 15px;
+  width: 1200px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.fa-arrow-down {
+  margin-left: 570px;
+}
+.font {
+  font-size: 60px;
+}
+.correo {
+  background: black;
+  color: var(--primary);
+
 }
