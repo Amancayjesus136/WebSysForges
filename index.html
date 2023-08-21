@@ -10,6 +10,8 @@
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
     <!--Swiper slider css-->
     <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
@@ -53,7 +55,7 @@
                             <a class="nav-link" href="#marketplace">Certificados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#categories">Experiencia</a>
+                            <a class="nav-link" href="#categories">Nuestros Trabajos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#creators">Habilidades</a>
@@ -61,7 +63,7 @@
                     </ul>
 
                     <div class="">
-                        <a href="apps-nft-wallet.html" class="btn btn-success">Contactanos!</a>
+                        <a href="#contactanos" class="btn btn-success">Contactanos!</a>
                     </div>
                 </div>
 
@@ -82,7 +84,7 @@
 
                             <div class="hstack gap-2 justify-content-center">
                                 <a href="#wallet" class="btn btn-primary">Conocenos! <i class="ri-arrow-right-line align-middle ms-1"></i></a>
-                                <a href="#marketplace" class="btn btn-danger">Nuestros Servicios! <i class="ri-arrow-right-line align-middle ms-1"></i></a>
+                                <a href="#categories" class="btn btn-danger">Nuestros Servicios! <i class="ri-arrow-right-line align-middle ms-1"></i></a>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -96,47 +98,74 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Connessct NFT Marketplace</h2>
-                            <p class="text-muted">A non-fungible token is a non-interchangeable unit of data stored on a blockchain, a form of digital ledger, that can be sold and traded.</p>
+                            <h2 class="mb-3 fw-semibold lh-base">¡Saludos desde el Equipo WebSysForge!</h2>
+                            <p class="text-muted">Nuestra travesía en el mundo del desarrollo web y sistemas comenzó como un sueño compartido en las aulas de nuestro instituto. Hemos aprendido, experimentado y crecido juntos a lo largo de este emocionante viaje. Nuestro enfoque se basa en convertir ideas en realidades digitales, aplicando nuestro conocimiento en programación y diseño para crear soluciones innovadoras que impulsen tu negocio al siguiente nivel.</p>
                         </div>
                     </div><!-- end col -->
                 </div><!-- end row -->
-
+        
                 <div class="row g-4">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="card text-center border shadow-none">
                             <div class="card-body py-5 px-4">
-                                <img src="assets/images/nft/wallet/metamask.png" alt="" height="55" class="mb-3 pb-2">
-                                <h5>Metamask</h5>
-                                <p class="text-muted pb-1">MetaMask is a popular cryptocurrency wallet known for its ease of use, availability on both desktops.</p>
-                                <a href="#!" class="btn btn-soft-info">Connect Wallet</a>
-                            </div>
-                        </div>
-                    </div><!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="card text-center border shadow-none">
-                            <div class="card-body py-5 px-4">
-                                <img src="assets/images/nft/wallet/coinbase.png" alt="" height="55" class="mb-3 pb-2">
-                                <h5>Coinbase Wallet</h5>
-                                <p class="text-muted pb-1">Coinbase Wallet is a self-custody wallet that gives you complete control of your crypto for your Wallet.</p>
-                                <a href="#!" class="btn btn-info">Change Wallet</a>
+                                <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2"><br>
+                                <h5>Jesús Amancay</h5><br>
+                                <a href="#" class="btn btn-soft-info rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-jesus-info">Info</a>
+                                <a href="#!" class="btn btn-soft-info rounded-circle">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="card text-center border shadow-none">
                             <div class="card-body py-5 px-4">
-                                <img src="assets/images/nft/wallet/binance.png" alt="" height="55" class="mb-3 pb-2">
-                                <h5>Binance</h5>
-                                <p class="text-muted pb-1">Binance is considered a safe exchange that allows user account protection via the use of Two Authentication.</p>
-                                <a href="#!" class="btn btn-soft-info">Connect Wallet</a>
+                                <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2"> <br>
+                                <h5>Jordan Potenciano</h5><br>
+                                <a href="#" class="btn btn-soft-info rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-jordan-info">Info</a>
+                                <a href="#!" class="btn btn-soft-info rounded-circle">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
                             </div>
                         </div>
-                    </div><!-- end col -->
-                </div><!-- end row -->
+                    </div>
+                </div>
             </div><!-- end container -->
         </section><!-- end wallet -->
+        
+        <!-- Modals -->
+        <div class="modal fade" id="modal-jesus-info" tabindex="-1" aria-labelledby="modal-jesus-info-label" aria-hidden="true">
+            <div class="modal-dialog d-flex justify-content-center align-items-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-jesus-info-label">Información</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2">
+                        <h5 class="mb-1"><a href="apps-nft-item-details.html">Jesús Adrián Amancay Acuña</a></h5>
+                        <p class="text-muted mb-0">Hola, soy un apasionado de la tecnología. Cuento con más de 1 año de experiencia en el desarrollo e implementación de aplicaciones Web, aplicando las mejores prácticas y patrones de diseño. Actualmente me enfoco en el desarrollo web para brindar soluciones innovadoras que impulsen proyectos hacia el éxito. Mi compromiso es crear experiencias digitales significativas y funcionales que superen las expectativas y contribuyan al crecimiento de cada proyecto en el que trabajo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="modal fade" id="modal-jordan-info" tabindex="-1" aria-labelledby="modal-jordan-info-label" aria-hidden="true">
+            <div class="modal-dialog d-flex justify-content-center align-items-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="modal-jordan-info-label">Información sobre Jordan Potenciano</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2">
+                        <p class="text-muted mb-0">Hola, soy un entusiasta de la tecnología con más de 1 año de experiencia en el desarrollo e implementación de aplicaciones Web. Mi enfoque se centra en aplicar las mejores prácticas y patrones de diseño para crear soluciones impactantes. Con un profundo interés por la programación y el diseño, estoy comprometido en contribuir al éxito de proyectos a través del desarrollo web. Mi objetivo es ofrecer experiencias digitales excepcionales y funcionales que agreguen valor y hagan crecer cada proyecto en el que participo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
         <!-- start marketplace -->
         <section class="section bg-light" id="marketplace">
@@ -179,7 +208,7 @@
                                 <img src="assets/images/nft/img-03.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Carpeta</a>
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -204,7 +233,7 @@
                                 <img src="assets/images/nft/img-02.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Carpeta</a>
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -229,7 +258,7 @@
                                 <img src="assets/images/nft/img-27.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Carpeta</a>
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -254,7 +283,7 @@
                                 <img src="assets/images/nft/img-01.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Carpeta</a>
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -276,23 +305,21 @@
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                             </div>
                             <div class="explore-place-bid-img">
-                                <img src="assets/images/nft/img-05.jpg" alt="" class="card-img-top explore-img" />
+                                <img src="assets/images/nft/img-03.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 64.10k </p>
-                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Long-tailed Macaque</a></h5>
-                                <p class="text-muted mb-0">Artwork</p>
+                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2022 </p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Certificado</a></h5>
+                                <p class="text-muted mb-0">Falta</p>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-grow-1 fs-14">
-                                        <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">874.01ETH</span>
                                     </div>
-                                    <h5 class="flex-shrink-0 fs-14 text-primary mb-0">745.14 ETH</h5>
                                 </div>
                             </div>
                         </div>
@@ -303,23 +330,21 @@
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                             </div>
                             <div class="explore-place-bid-img">
-                                <img src="assets/images/nft/img-06.jpg" alt="" class="card-img-top explore-img" />
+                                <img src="assets/images/nft/img-01.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
-                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Robotic Body Art</a></h5>
-                                <p class="text-muted mb-0">Artwork</p>
+                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2022 </p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Certificado</a></h5>
+                                <p class="text-muted mb-0">Falta</p>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-grow-1 fs-14">
-                                        <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i> Highest: <span class="fw-medium">41.658 ETH</span>
                                     </div>
-                                    <h5 class="flex-shrink-0 fs-14 text-primary mb-0">34.81 ETH</h5>
                                 </div>
                             </div>
                         </div>
@@ -329,71 +354,14 @@
         </section>
         <!-- end marketplace -->
 
-        <!-- start features -->
-        <section class="section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Create and Sell Your NFTs</h2>
-                            <p class="text-muted">The process of creating an NFT may cost less than a dollar, but the process of selling it can cost up to a thousand dollars. For example, Allen Gannett, a software developer.</p>
-                        </div>
-                    </div><!-- end col -->
-                </div><!-- end row -->
-                
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="card shadow-none">
-                            <div class="card-body">
-                                <img src="assets/images/nft/wallet.png" alt="" class="avatar-sm">
-                                <h5 class="mt-4">Set up your wallet</h5>
-                                <p class="text-muted fs-14">You have to choose whether to use a hot wallet a cold wallet.</p>
-                                <a href="#!" class="link-success fs-14">Read More <i class="ri-arrow-right-line align-bottom"></i></a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <div class="col-lg-3">
-                        <div class="card shadow-none">
-                            <div class="card-body">
-                                <img src="assets/images/nft/money.png" alt="" class="avatar-sm">
-                                <h5 class="mt-4">Create your collection</h5>
-                                <p class="text-muted fs-14">Create a collection in Opensea and give it a proper art.</p>
-                                <a href="#!" class="link-success fs-14">Read More <i class="ri-arrow-right-line align-bottom"></i></a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <div class="col-lg-3">
-                        <div class="card shadow-none">
-                            <div class="card-body">
-                                <img src="assets/images/nft/add.png" alt="" class="avatar-sm">
-                                <h5 class="mt-4">Add your NFT's</h5>
-                                <p class="text-muted fs-14">Go to your profile icon and top right corner creation page.</p>
-                                <a href="#!" class="link-success fs-14">Read More <i class="ri-arrow-right-line align-bottom"></i></a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <div class="col-lg-3">
-                        <div class="card shadow-none">
-                            <div class="card-body">
-                                <img src="assets/images/nft/sell.png" alt="" class="avatar-sm">
-                                <h5 class="mt-4">Sell Your NFT's</h5>
-                                <p class="text-muted fs-14">Create a collection in Opensea and give Add items and art.</p>
-                                <a href="#!" class="link-success fs-14">Read More <i class="ri-arrow-right-line align-bottom"></i></a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!-- end container -->
-        </section><!-- end features -->
-
         <!-- start plan -->
         <section class="section bg-light" id="categories">
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-lg-5">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Trending All Categories</h2>
-                            <p class="text-muted">The process of creating an NFT may cost less than a dollar, but the process of selling it can cost up to a thousand dollars. For example, Allen Gannett, a software developer.</p>
+                            <h2 class="mb-3 fw-semibold lh-base">Descubre Nuestros Trabajos Digitales</h2>
+                            <p class="text-muted">Resultados forjados por años de experiencia y dedicación en cada proyecto.</p>
                         </div>
                     </div><!-- end col -->
                 </div><!-- end row -->
@@ -407,16 +375,16 @@
                                         <div class="card-body">
                                             <div class="row g-1 mb-3">
                                                 <div class="col-6">
-                                                    <img src="assets/images/nft/img-06.jpg" alt="" class="img-fluid rounded">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt="" class="img-fluid rounded mt-1">
+                                                    <img src="assets/images/nft/economuebles1.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/economuebles2.jpg" alt="" class="img-fluid rounded mt-1">
                                                 </div><!--end col-->
                                                 <div class="col-6">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt="" class="img-fluid rounded mb-1">
-                                                    <img src="assets/images/nft/img-03.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/economuebles3.jpg" alt="" class="img-fluid rounded mb-1">
+                                                    <img src="assets/images/nft/economuebles4.jpg" alt="" class="img-fluid rounded">
                                                 </div><!--end col-->
                                             </div><!--end row-->
-                                            <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
-                                            <h5 class="mb-0 fs-16"><a href="#!">Artwork <span class="badge badge-soft-success">206</span></a></h5>
+                                            <a href="#!" class="float-end"> Ver detalles <i class="ri-arrow-right-line align-bottom"></i></a>
+                                            <h5 class="mb-0 fs-16"><a href="#!">Economuebles <span class="badge badge-soft-success">2022</span></a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -425,16 +393,16 @@
                                         <div class="card-body">
                                             <div class="row g-1 mb-3">
                                                 <div class="col-6">
-                                                    <img src="assets/images/nft/img-05.jpg" alt="" class="img-fluid rounded">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mt-1">
+                                                    <img src="assets/images/nft/ceri1.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/ceri2.jpg" alt="" class="img-fluid rounded mt-1">
                                                 </div><!--end col-->
                                                 <div class="col-6">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-4.gif" alt="" class="img-fluid rounded mb-1">
-                                                    <img src="assets/images/nft/img-04.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/ceri3.jpg" alt="" class="img-fluid rounded mb-1">
+                                                    <img src="assets/images/nft/ceri4.jpg" alt="" class="img-fluid rounded">
                                                 </div><!--end col-->
                                             </div><!--end row-->
-                                            <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
-                                            <h5 class="mb-0 fs-16"><a href="#!">Crypto Card <span class="badge badge-soft-success">743</span></a></h5>
+                                            <a href="#!" class="float-end"> Ver detalles <i class="ri-arrow-right-line align-bottom"></i></a>
+                                            <h5 class="mb-0 fs-16"><a href="#!">Ceeri <span class="badge badge-soft-success">2022</span></a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -443,16 +411,16 @@
                                         <div class="card-body">
                                             <div class="row g-1 mb-3">
                                                 <div class="col-6">
-                                                    <img src="assets/images/nft/img-02.jpg" alt="" class="img-fluid rounded">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-3.gif" alt="" class="img-fluid rounded mt-1">
+                                                    <img src="assets/images/nft/web1.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/web2.jpg" alt="" class="img-fluid rounded mt-1">
                                                 </div><!--end col-->
                                                 <div class="col-6">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mb-1">
-                                                    <img src="assets/images/nft/img-01.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/web3.jpg" alt="" class="img-fluid rounded mb-1">
+                                                    <img src="assets/images/nft/web4.jpg" alt="" class="img-fluid rounded">
                                                 </div><!--end col-->
                                             </div><!--end row-->
-                                            <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
-                                            <h5 class="mb-0 fs-16"><a href="#!">Music <span class="badge badge-soft-success">679</span></a></h5>
+                                            <a href="#!" class="float-end"> Ver detalles <i class="ri-arrow-right-line align-bottom"></i></a>
+                                            <h5 class="mb-0 fs-16"><a href="#!">Web Sostenibilidad <span class="badge badge-soft-success">2023</span></a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -461,16 +429,16 @@
                                         <div class="card-body">
                                             <div class="row g-1 mb-3">
                                                 <div class="col-6">
-                                                    <img src="assets/images/nft/img-03.jpg" alt="" class="img-fluid rounded">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt="" class="img-fluid rounded mt-1">
+                                                    <img src="assets/images/nft/phenomenal1.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/phenomenal2.jpg" alt="" class="img-fluid rounded mt-1">
                                                 </div><!--end col-->
                                                 <div class="col-6">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt="" class="img-fluid rounded mb-1">
-                                                    <img src="assets/images/nft/img-05.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/phenomenal3.jpg" alt="" class="img-fluid rounded mb-1">
+                                                    <img src="assets/images/nft/phenomenal4.jpg" alt="" class="img-fluid rounded">
                                                 </div><!--end col-->
                                             </div><!--end row-->
-                                            <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
-                                            <h5 class="mb-0 fs-16"><a href="#!">Games <span class="badge badge-soft-success">341</span></a></h5>
+                                            <a href="#!" class="float-end"> Ver detalles <i class="ri-arrow-right-line align-bottom"></i></a>
+                                            <h5 class="mb-0 fs-16"><a href="#!">Phenomenal <span class="badge badge-soft-success">2023</span></a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -479,16 +447,16 @@
                                         <div class="card-body">
                                             <div class="row g-1 mb-3">
                                                 <div class="col-6">
-                                                    <img src="assets/images/nft/img-02.jpg" alt="" class="img-fluid rounded">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-3.gif" alt="" class="img-fluid rounded mt-1">
+                                                    <img src="assets/images/nft/sunarp1.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/sunarp2.jpg" alt="" class="img-fluid rounded mt-1">
                                                 </div><!--end col-->
                                                 <div class="col-6">
-                                                    <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mb-1">
-                                                    <img src="assets/images/nft/img-01.jpg" alt="" class="img-fluid rounded">
+                                                    <img src="assets/images/nft/sunarp3.jpg" alt="" class="img-fluid rounded mb-1">
+                                                    <img src="assets/images/nft/sunarp4.jpg" alt="" class="img-fluid rounded">
                                                 </div><!--end col-->
                                             </div><!--end row-->
-                                            <a href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i></a>
-                                            <h5 class="mb-0 fs-16"><a href="#!">Photography <span class="badge badge-soft-success">1452</span></a></h5>
+                                            <a href="#!" class="float-end"> Ver detalles <i class="ri-arrow-right-line align-bottom"></i></a>
+                                            <h5 class="mb-0 fs-16"><a href="#!">Sunarp <span class="badge badge-soft-success">2023</span></a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -500,116 +468,15 @@
             </div><!-- end container -->
         </section>
         <!-- end plan -->
-
-        <!-- start Discover Items-->
-        <section class="section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="d-flex align-items-center mb-5">
-                            <h2 class="mb-0 fw-semibold lh-base flex-grow-1">Discover Items</h2>
-                            <a href="apps-nft-explore.html" class="btn btn-primary">View All <i class="ri-arrow-right-line align-bottom"></i></a>
-                        </div>
-                    </div>
-                </div><!-- end row -->
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card explore-box card-animate border">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle">
-                                    <div class="ms-2 flex-grow-1">
-                                        <a href="#!"><h6 class="mb-0 fs-15">Nancy Martino</h6></a>
-                                        <p class="mb-0 text-muted fs-13">Owners</p>
-                                    </div>
-                                    <div class="bookmark-icon">
-                                        <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
-                                    </div>
-                                </div>
-                                <div class="explore-place-bid-img overflow-hidden rounded">
-                                    <img src="assets/images/nft/img-05.jpg" alt="" class="explore-img w-100">
-                                    <div class="bg-overlay"></div>
-                                    <div class="place-bid-btn">
-                                        <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
-                                    </div>
-                                </div>
-                                <div class="mt-3">
-                                    <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 19.29k </p>
-                                    <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
-                                    <h6 class="fs-16 mb-0"><a href="apps-nft-item-details.html">Patterns arts &amp; culture</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card explore-box card-animate border">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="assets/images/users/avatar-9.jpg" alt="" class="avatar-xs rounded-circle">
-                                    <div class="ms-2 flex-grow-1">
-                                        <a href="#!"><h6 class="mb-0 fs-15">Henry Baird</h6></a>
-                                        <p class="mb-0 text-muted fs-13">Creators</p>
-                                    </div>
-                                    <div class="bookmark-icon">
-                                        <button type="button" class="btn btn-icon" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
-                                    </div>
-                                </div>
-                                <div class="explore-place-bid-img overflow-hidden rounded">
-                                    <img src="assets/images/nft/img-03.jpg" alt="" class="explore-img w-100">
-                                    <div class="bg-overlay"></div>
-                                    <div class="place-bid-btn">
-                                        <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
-                                    </div>
-                                </div>
-                                <div class="mt-3">
-                                    <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 31.64k </p>
-                                    <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 475.23 ETH </h5>
-                                    <h6 class="fs-16 mb-0"><a href="apps-nft-item-details.html">Evolved Reality</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card explore-box card-animate border">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="assets/images/users/avatar-10.jpg" alt="" class="avatar-xs rounded-circle">
-                                    <div class="ms-2 flex-grow-1">
-                                        <a href="#!"><h6 class="mb-0 fs-15">Diana Kohler</h6></a>
-                                        <p class="mb-0 text-muted fs-13">Owners</p>
-                                    </div>
-                                    <div class="bookmark-icon">
-                                        <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
-                                    </div>
-                                </div>
-                                <div class="explore-place-bid-img overflow-hidden rounded">
-                                    <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid explore-img">
-                                    <div class="bg-overlay"></div>
-                                    <div class="place-bid-btn">
-                                        <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
-                                    </div>
-                                </div>
-                                <div class="mt-3">
-                                    <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 8.34k </p>
-                                    <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 701.38 ETH </h5>
-                                    <h6 class="fs-16 mb-0"><a href="apps-nft-item-details.html">Long-tailed macaque</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-        </section>
-        <!--end Discover Items-->
-
+        
         <!-- start Work Process -->
         <section class="section bg-light" id="creators">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Top Creator This Week</h2>
-                            <p class="text-muted">NFTs are valuable because they verify the authenticity of a non-fungible asset. This makes these assets unique and one of a kind.</p>
+                            <h2 class="mb-3 fw-semibold lh-base">Conocimientos</h2>
+                            <p class="text-muted">Exploramos un amplio espectro de habilidades, desde la programación hasta el diseño, para crear soluciones digitales innovadoras y efectivas. Nuestro conjunto de habilidades diversificado nos permite abordar cada proyecto con enfoque y creatividad, entregando resultados que sobrepasan expectativas y enriquecen la experiencia digital.</p>
                         </div>
                     </div>
                 </div><!-- end row -->
@@ -619,13 +486,13 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="flex-shink-0">
-                                        <img src="assets/images/nft/img-01.jpg" alt="" class="avatar-sm object-cover rounded" />
+                                        <i class="far fa-file-word fa-3x"></i>
                                     </div>
                                     <div class="ms-3 flex-grow-1">
                                         <a href="pages-profile.html">
-                                            <h5 class="mb-1">Timothy Smith</h5>
+                                            <h5 class="mb-1">Microsoft Word</h5>
                                         </a>
-                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 4,754 ETH</p>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 100%</p>
                                     </div>
                                     <div>
                                         <div class="dropdown float-end">
@@ -647,13 +514,13 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="flex-shink-0">
-                                        <img src="assets/images/users/avatar-5.jpg" alt="" class="avatar-sm object-cover rounded">
+                                        <i class="fas fa-file-powerpoint fa-3x"></i>
                                     </div>
                                     <div class="ms-3 flex-grow-1">
                                         <a href="pages-profile.html">
-                                            <h5 class="mb-1">Alexis Clarke</h5>
+                                            <h5 class="mb-1">Microsoft PowerPoint</h5>
                                         </a>
-                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 81,369 ETH</p>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i>100%</p>
                                     </div>
                                     <div>
                                         <div class="dropdown float-end">
@@ -675,13 +542,13 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="flex-shink-0">
-                                        <img src="assets/images/nft/img-06.jpg" alt="" class="avatar-sm object-cover rounded">
+                                        <i class="fas fa-file-excel fa-3x"></i>
                                     </div>
                                     <div class="ms-3 flex-grow-1">
                                         <a href="pages-profile.html">
-                                            <h5 class="mb-1">Glen Matney</h5>
+                                            <h5 class="mb-1">Microsoft Excel</h5>
                                         </a>
-                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 13,156 ETH</p>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 100%</p>
                                     </div>
                                     <div>
                                         <div class="dropdown float-end">
@@ -704,13 +571,13 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="flex-shink-0">
-                                        <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt="" class="avatar-sm object-cover rounded">
+                                        <i class='fas fa-code fa-3x' style='color:black'></i>
                                     </div>
                                     <div class="ms-3 flex-grow-1">
                                         <a href="pages-profile.html">
-                                            <h5 class="mb-1">Herbert Stokes</h5>
+                                            <h5 class="mb-1">HTML/CSS</h5>
                                         </a>
-                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 34,754 ETH</p>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 100%</p>
                                     </div>
                                     <div>
                                         <div class="dropdown float-end">
@@ -733,13 +600,13 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="flex-shink-0">
-                                        <img src="assets/images/users/avatar-8.jpg" alt="" class="avatar-sm object-cover rounded">
+                                        <i class="fab fa-php fa-3x"></i>
                                     </div>
                                     <div class="ms-3 flex-grow-1">
                                         <a href="pages-profile.html">
-                                            <h5 class="mb-1">Michael Morris</h5>
+                                            <h5 class="mb-1">PHP</h5>
                                         </a>
-                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 13,841 ETH</p>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 90%</p>
                                     </div>
                                     <div>
                                         <div class="dropdown float-end">
@@ -762,13 +629,13 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="flex-shink-0">
-                                        <img src="assets/images/nft/img-02.jpg" alt="" class="avatar-sm object-cover rounded">
+                                        <i class="fab fa-wordpress fa-3x"></i>
                                     </div>
                                     <div class="ms-3 flex-grow-1">
                                         <a href="pages-profile.html">
-                                            <h5 class="mb-1">James Morris</h5>
+                                            <h5 class="mb-1">Wordpress</h5>
                                         </a>
-                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 63,710 ETH</p>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 80%</p>
                                     </div>
                                     <div>
                                         <div class="dropdown float-end">
@@ -785,26 +652,202 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="flex-shink-0">
+                                        <i class="fab fa-laravel fa-3x"></i>
+                                    </div>
+                                    <div class="ms-3 flex-grow-1">
+                                        <a href="pages-profile.html">
+                                            <h5 class="mb-1">Laravel</h5>
+                                        </a>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 100%</p>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown float-end">
+                                            <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="ri-more-fill align-middle fs-16"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item view-item-btn" href="javascript:void(0);">Share</a></li>
+                                                <li><a class="dropdown-item edit-item-btn" href="#!" data-bs-toggle="modal">Report</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="flex-shink-0">
+                                        <i class="fab fa-js fa-3x"></i>
+                                    </div>
+                                    <div class="ms-3 flex-grow-1">
+                                        <a href="pages-profile.html">
+                                            <h5 class="mb-1">JavaScript</h5>
+                                        </a>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 50%</p>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown float-end">
+                                            <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="ri-more-fill align-middle fs-16"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item view-item-btn" href="javascript:void(0);">Share</a></li>
+                                                <li><a class="dropdown-item edit-item-btn" href="#!" data-bs-toggle="modal">Report</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="flex-shink-0">
+                                        <i class="fas fa-database fa-3x"></i>
+                                    </div>
+                                    <div class="ms-3 flex-grow-1">
+                                        <a href="pages-profile.html">
+                                            <h5 class="mb-1">MySQL</h5>
+                                        </a>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 100%</p>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown float-end">
+                                            <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="ri-more-fill align-middle fs-16"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item view-item-btn" href="javascript:void(0);">Share</a></li>
+                                                <li><a class="dropdown-item edit-item-btn" href="#!" data-bs-toggle="modal">Report</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="flex-shink-0">
+                                        <i class="fas fa-server fa-3x"></i>
+                                    </div>
+                                    <div class="ms-3 flex-grow-1">
+                                        <a href="pages-profile.html">
+                                            <h5 class="mb-1">SQL SERVER</h5>
+                                        </a>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 90%</p>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown float-end">
+                                            <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="ri-more-fill align-middle fs-16"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item view-item-btn" href="javascript:void(0);">Share</a></li>
+                                                <li><a class="dropdown-item edit-item-btn" href="#!" data-bs-toggle="modal">Report</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="flex-shink-0">
+                                        <i class="fas fa-code fa-3x"></i>
+                                    </div>
+                                    <div class="ms-3 flex-grow-1">
+                                        <a href="pages-profile.html">
+                                            <h5 class="mb-1">Cobol / JCL</h5>
+                                        </a>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 90%</p>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown float-end">
+                                            <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="ri-more-fill align-middle fs-16"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item view-item-btn" href="javascript:void(0);">Share</a></li>
+                                                <li><a class="dropdown-item edit-item-btn" href="#!" data-bs-toggle="modal">Report</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="flex-shink-0">
+                                        <i class="fas fa-code fa-3x"></i>
+                                    </div>
+                                    <div class="ms-3 flex-grow-1">
+                                        <a href="pages-profile.html">
+                                            <h5 class="mb-1">C#</h5>
+                                        </a>
+                                        <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 50%</p>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown float-end">
+                                            <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="ri-more-fill align-middle fs-16"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item view-item-btn" href="javascript:void(0);">Share</a></li>
+                                                <li><a class="dropdown-item edit-item-btn" href="#!" data-bs-toggle="modal">Report</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
                     <!--end col-->
                 </div>
             </div><!-- end container -->
         </section><!-- end Work Process -->
 
         <!-- start cta -->
-        <section class="py-5 bg-primary position-relative">
+        <section id="contactanos" class="py-5 bg-primary position-relative">
             <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
             <div class="container">
                 <div class="row align-items-center gy-4">
                     <div class="col-sm">
                         <div>
-                            <h4 class="text-white mb-0 fw-semibold">Create and Sell Your NFT's</h4>
+                            <h4 class="text-white mb-0 fw-semibold">Contactanos</h4>
                         </div>
                     </div>
                     <!-- end col -->
                     <div class="col-sm-auto">
                         <div>
-                            <a href="apps-nft-create.html" class="btn bg-gradient btn-danger">Create NFT</a>
-                            <a href="apps-nft-explore.html" class="btn bg-gradient btn-info">Discover More</a>
+                            <a href="#contactanos" class="btn bg-gradient btn-danger">Correo Electrónico</a>
+                            <a href="#contactanos" class="btn bg-gradient btn-info">WhatsApp</a>
                         </div>
                     </div>
                     <!-- end col -->
@@ -822,46 +865,43 @@
                     <div class="col-lg-4 mt-4">
                         <div>
                             <div>
-                                <img src="assets/images/logo-light.png" alt="logo light" height="17">
+                                <img src="assets/images/logo-light.png" alt="logo light" height="100">
                             </div>
                             <div class="mt-4">
-                                <p>Premium Multipurpose Admin & Dashboard Template</p>
-                                <p>You can build any type of web application like eCommerce, CRM, CMS, Project management apps, Admin Panels, etc using Velzon.</p>
+                                <p>Si tienes preguntas, ideas o simplemente quieres charlar, no dudes en ponerte en contacto con nosotros. Estamos aquí para escucharte y ayudarte en todo lo que podamos. </p>
+                                <p>¡Esperamos con ansias saber de ti!</p>
                             </div>
                         </div>
                     </div>
-
+                 
                     <div class="col-lg-7 ms-lg-auto">
                         <div class="row">
                             <div class="col-sm-4 mt-4">
-                                <h5 class="text-white mb-0">Company</h5>
+                                <h5 class="text-white mb-0">Nuestros Trabajos</h5>
                                 <div class="text-muted mt-3">
                                     <ul class="list-unstyled ff-secondary footer-list">
-                                        <li><a href="pages-profile.html">About Us</a></li>
-                                        <li><a href="pages-gallery.html">Gallery</a></li>
-                                        <li><a href="apps-projects-overview.html">Projects</a></li>
-                                        <li><a href="pages-timeline.html">Timeline</a></li>
+                                        <li><a href="#categories">Proyectos</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 mt-4">
-                                <h5 class="text-white mb-0">Apps Pages</h5>
+                                <h5 class="text-white mb-0">Conocenos</h5>
                                 <div class="text-muted mt-3">
                                     <ul class="list-unstyled ff-secondary footer-list">
-                                        <li><a href="pages-pricing.html">Calendar</a></li>
-                                        <li><a href="apps-mailbox.html">Mailbox</a></li>
-                                        <li><a href="apps-chat.html">Chat</a></li>
-                                        <li><a href="apps-crm-deals.html">Deals</a></li>
-                                        <li><a href="apps-tasks-kanban.html">Kanban Board</a></li>
+                                        <li><a href="#wallet">Equipo WebSysForge</a></li>
+                                        <li><a href="#marketplace">Certificados</a></li>
+                                        <li><a href="#creators">Habilidades</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-sm-4 mt-4">
-                                <h5 class="text-white mb-0">Support</h5>
+                                <h5 class="text-white mb-0">Contactanos</h5>
                                 <div class="text-muted mt-3">
                                     <ul class="list-unstyled ff-secondary footer-list">
-                                        <li><a href="pages-faqs.html">FAQ</a></li>
-                                        <li><a href="pages-faqs.html">Contact</a></li>
+                                        <li><a href="#">Correo Electrónico</a></li>
+                                        <li><a href="#">WhatsApp</a></li>
+                                        <li><a href="#">Instragram</a></li>
+                                        <li><a href="#">Facebook</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -875,7 +915,7 @@
 
                         <div>
                             <p class="copy-rights mb-0">
-                                <script> document.write(new Date().getFullYear()) </script> © Velzon - Themesbrand
+                                <script> document.write(new Date().getFullYear()) </script> © WebSysForge
                             </p>
                         </div>
                     </div>
