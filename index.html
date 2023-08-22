@@ -4,13 +4,16 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>J&J | WebSysForge</title>
+    <title>WebSysForge</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
 
 
     <!--Swiper slider css-->
@@ -26,6 +29,36 @@
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
     <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        .circular-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .circular-image {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    
+        .name {
+            margin-top: 10px;
+            font-size: 1.25rem;
+        }
+    
+        .social-icons {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .social-icons a {
+            margin: 0 5px;
+        }
+    </style>
 
 </head>
 
@@ -49,7 +82,7 @@
                             <a class="nav-link active" href="#hero">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#wallet">Conocenos</a>
+                            <a class="nav-link" href="#wallet">Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#marketplace">Certificados</a>
@@ -104,28 +137,42 @@
                     </div><!-- end col -->
                 </div><!-- end row -->
         
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="card text-center border shadow-none">
-                            <div class="card-body py-5 px-4">
-                                <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2"><br>
-                                <h5>Jesús Amancay</h5><br>
-                                <a href="#" class="btn btn-soft-info rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-jesus-info">Info</a>
-                                <a href="#!" class="btn btn-soft-info rounded-circle">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6">
+                            <div class="card-body py-4">
+                                <div class="circular-container">
+                                    <div class="circular-image">
+                                        <img src="assets/images/nft/pepe.jpg" alt="" height="200">
+                                    </div>
+                                    <div class="name">
+                                        Jesús Amancay
+                                    </div>
+                                    <div class="social-icons">
+                                        <a href="#" class="btn btn-soft-info rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-jesus-info">Info</a>
+                                        <a href="https://www.instagram.com/megusta.cortarme/" class="btn btn-soft-info rounded-circle">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="card text-center border shadow-none">
-                            <div class="card-body py-5 px-4">
-                                <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2"> <br>
-                                <h5>Jordan Potenciano</h5><br>
-                                <a href="#" class="btn btn-soft-info rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-jordan-info">Info</a>
-                                <a href="#!" class="btn btn-soft-info rounded-circle">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
+                    
+                        <div class="col-12 col-md-6">
+                            <div class="card-body py-4">
+                                <div class="circular-container">
+                                    <div class="circular-image">
+                                        <img src="assets/images/nft/jordan.jpg" alt="" height="200">
+                                    </div>
+                                    <div class="name">
+                                        Jordan Potenciano
+                                    </div>
+                                    <div class="social-icons">
+                                        <a href="#" class="btn btn-soft-info rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-jordan-info">Info</a>
+                                        <a href="#!" class="btn btn-soft-info rounded-circle">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -135,36 +182,47 @@
         
         <!-- Modals -->
         <div class="modal fade" id="modal-jesus-info" tabindex="-1" aria-labelledby="modal-jesus-info-label" aria-hidden="true">
-            <div class="modal-dialog d-flex justify-content-center align-items-center">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="modal-jesus-info-label">Información</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-center">
-                        <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2">
-                        <h5 class="mb-1"><a href="apps-nft-item-details.html">Jesús Adrián Amancay Acuña</a></h5>
+                        <div class="circular-container">
+                            <div class="circular-image">
+                                <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="rounded-circle">
+                            </div> <br>
+                        </div>
+                        <h5 class="mb-1"><a href="apps-nft-item-details.html">Jesús Adrián Amancay Acuña</a></h5><br>
+                        <p class="text-muted mb-0">Hola, soy un entusiasta de la tecnología con más de 1 año de experiencia en el desarrollo e implementación de aplicaciones Web. Mi enfoque se centra en aplicar las mejores prácticas y patrones de diseño para crear soluciones impactantes. Con un profundo interés por la programación y el diseño, estoy comprometido en contribuir al éxito de proyectos a través del desarrollo web. Mi objetivo es ofrecer experiencias digitales excepcionales y funcionales que agreguen valor y hagan crecer cada proyecto en el que participo.      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="modal fade" id="modal-jordan-info" tabindex="-1" aria-labelledby="modal-jordan-info-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="modal-jordan-info-label">Información</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="circular-container">
+                            <div class="circular-image">
+                                <img src="assets/images/nft/jordan.jpg" alt="" height="200" class="rounded-circle">
+                            </div> <br>
+                        </div>
+                        <h5 class="mb-1"><a href="apps-nft-item-details.html">Jordan Potenciano</a></h5><br>
                         <p class="text-muted mb-0">Hola, soy un apasionado de la tecnología. Cuento con más de 1 año de experiencia en el desarrollo e implementación de aplicaciones Web, aplicando las mejores prácticas y patrones de diseño. Actualmente me enfoco en el desarrollo web para brindar soluciones innovadoras que impulsen proyectos hacia el éxito. Mi compromiso es crear experiencias digitales significativas y funcionales que superen las expectativas y contribuyan al crecimiento de cada proyecto en el que trabajo</p>
                     </div>
                 </div>
             </div>
         </div>
         
-        
-        <div class="modal fade" id="modal-jordan-info" tabindex="-1" aria-labelledby="modal-jordan-info-label" aria-hidden="true">
-            <div class="modal-dialog d-flex justify-content-center align-items-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title text-center" id="modal-jordan-info-label">Información sobre Jordan Potenciano</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center">
-                        <img src="assets/images/nft/pepe.jpg" alt="" height="200" class="mb-3 pb-2">
-                        <p class="text-muted mb-0">Hola, soy un entusiasta de la tecnología con más de 1 año de experiencia en el desarrollo e implementación de aplicaciones Web. Mi enfoque se centra en aplicar las mejores prácticas y patrones de diseño para crear soluciones impactantes. Con un profundo interés por la programación y el diseño, estoy comprometido en contribuir al éxito de proyectos a través del desarrollo web. Mi objetivo es ofrecer experiencias digitales excepcionales y funcionales que agreguen valor y hagan crecer cada proyecto en el que participo.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         
 
         <!-- start marketplace -->
@@ -177,29 +235,32 @@
                             <p class="text-muted mb-4">Garantía de Calidad: Nuestros Certificados respaldan cada línea de código en tu éxito digital.</p>
                             <ul class="nav nav-pills filter-btns justify-content-center" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link fw-medium active" type="button" data-filter="all">Todos los certificados de los integrantes</button>
-                                </li>
-                                <!-- <li class="nav-item" role="presentation">
-                                    <button class="nav-link fw-medium" type="button" data-filter="artwork">Marca Personal</button>
+                                    <button class="nav-link fw-medium active" type="button" data-filter="all">Todos</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link fw-medium" type="button" data-filter="music">Transformación Digital</button>
+                                    <button class="nav-link fw-medium" type="button" data-filter="artwork">Platzi</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link fw-medium" type="button" data-filter="games">Agile Management</button>
+                                    <button class="nav-link fw-medium" type="button" data-filter="music">Instituto Europeo</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link fw-medium" type="button" data-filter="crypto-card">Contratación Personal</button>
-                                </li> -->
-                                <!-- <li class="nav-item" role="presentation">
-                                    <button class="nav-link fw-medium" type="button" data-filter="3d-style">3d Style</button>
-                                </li> -->
+                                    <button class="nav-link fw-medium" type="button" data-filter="games">HP Foundation</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link fw-medium" type="button" data-filter="crypto-card">Areandina</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link fw-medium" type="button" data-filter="3d-style">CertiProf</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link fw-medium" type="button" data-filter="ismem">Ismem</button>
+                                </li>
                             </ul>
                         </div>
                     </div><!-- end col -->
                 </div><!-- end row -->
                 <div class="row">
-                    <div class="col-lg-4 product-item artwork crypto-card 3d-style">
+                    <div class="col-lg-4 product-item artwork ">
                         <div class="card explore-box card-animate">
                             <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
@@ -224,7 +285,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 product-item music crypto-card games">
+                    <div class="col-lg-4 product-item music ">
                         <div class="card explore-box card-animate">
                             <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
@@ -249,7 +310,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 product-item artwork music games">
+                    <div class="col-lg-4 product-item games">
                         <div class="card explore-box card-animate">
                             <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
@@ -274,7 +335,85 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 product-item crypto-card 3d-style">
+
+                    <div class="col-lg-4 product-item music ">
+                        <div class="card explore-box card-animate">
+                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                            </div>
+                            <div class="explore-place-bid-img">
+                                <img src="assets/images/nft/certi1.jpg" alt="" class="card-img-top explore-img" />
+                                <div class="bg-overlay"></div>
+                                <div class="place-bid-btn">
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2022 </p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Agile Management</a></h5>
+                                <p class="text-muted mb-0">Instituto Europeo De Posgrado</p>
+                            </div>
+                            <div class="card-footer border-top border-top-dashed">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1 fs-14">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 product-item music ">
+                        <div class="card explore-box card-animate">
+                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                            </div>
+                            <div class="explore-place-bid-img">
+                                <img src="assets/images/nft/certi2.jpg" alt="" class="card-img-top explore-img" />
+                                <div class="bg-overlay"></div>
+                                <div class="place-bid-btn">
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2022 </p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Design Thinking</a></h5>
+                                <p class="text-muted mb-0">Instituto Europeo De Posgrado</p>
+                            </div>
+                            <div class="card-footer border-top border-top-dashed">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1 fs-14">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 product-item music ">
+                        <div class="card explore-box card-animate">
+                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                            </div>
+                            <div class="explore-place-bid-img">
+                                <img src="assets/images/nft/certi3.jpg" alt="" class="card-img-top explore-img" />
+                                <div class="bg-overlay"></div>
+                                <div class="place-bid-btn">
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2022 </p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Transformación Digital</a></h5>
+                                <p class="text-muted mb-0">Instituto Europeo De Posgrado</p>
+                            </div>
+                            <div class="card-footer border-top border-top-dashed">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1 fs-14">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 product-item music  ">
                         <div class="card explore-box card-animate">
                             <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
@@ -299,13 +438,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 product-item games music 3d-style">
+                    <div class="col-lg-4 product-item crypto-card">
                         <div class="card explore-box card-animate">
                             <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                             </div>
                             <div class="explore-place-bid-img">
-                                <img src="assets/images/nft/img-03.jpg" alt="" class="card-img-top explore-img" />
+                                <img src="assets/images/nft/img-20.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
                                     <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
@@ -313,8 +452,8 @@
                             </div>
                             <div class="card-body">
                                 <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2022 </p>
-                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Certificado</a></h5>
-                                <p class="text-muted mb-0">Falta</p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Transformación Digital</a></h5>
+                                <p class="text-muted mb-0">Fundiación universitaria del área andina</p>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
@@ -324,13 +463,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 product-item artwork music crypto-card">
+                    <div class="col-lg-4 product-item 3d-style">
                         <div class="card explore-box card-animate">
                             <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                             </div>
                             <div class="explore-place-bid-img">
-                                <img src="assets/images/nft/img-01.jpg" alt="" class="card-img-top explore-img" />
+                                <img src="assets/images/nft/img-21.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
                                     <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
@@ -338,8 +477,33 @@
                             </div>
                             <div class="card-body">
                                 <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2022 </p>
-                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Certificado</a></h5>
-                                <p class="text-muted mb-0">Falta</p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Scrum Foundation</a></h5>
+                                <p class="text-muted mb-0">CertiProf</p>
+                            </div>
+                            <div class="card-footer border-top border-top-dashed">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1 fs-14">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 product-item  ismem">
+                        <div class="card explore-box card-animate">
+                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                            </div>
+                            <div class="explore-place-bid-img">
+                                <img src="assets/images/nft/img-22.jpg" alt="" class="card-img-top explore-img" />
+                                <div class="bg-overlay"></div>
+                                <div class="place-bid-btn">
+                                    <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Ver</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 2023 </p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">Ciberseguridad</a></h5>
+                                <p class="text-muted mb-0">ISMEM</p>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
