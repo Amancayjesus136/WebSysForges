@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
-
 <head>
-
     <meta charset="utf-8" />
     <title>WebSysForge</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
-
-
     <!--Swiper slider css-->
     <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
-
     <!-- Layout config Js -->
     <script src="assets/js/layout.js"></script>
     <!-- Bootstrap Css -->
@@ -29,7 +24,6 @@
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
     <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
-
     <style>
         .circular-container {
             width: 100%;
@@ -58,46 +52,22 @@
         .social-icons a {
             margin: 0 5px;
         }
-        .navbar-logo {
-            height: 150px; /* Cambiar la altura según tus necesidades */
-            transition: height 0.3s ease;
-        }
-
-        .navbar-toggler {
-            margin-top: 5px; /* Ajustar este valor según sea necesario */
-        }
-
-        /* Estilos para mantener el menú en su lugar */
-        .navbar-brand {
-            display: flex;
-            align-items: center;
-        }
-
-        .navbar-nav {
-            margin-left: auto;
-            margin-right: auto;
-        }
     </style>
-
-
-
     
-
 </head>
-
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
-
     <!-- Begin page -->
     <div class="layout-wrapper landing">
         <nav class="navbar navbar-expand-lg navbar-landing navbar-light fixed-top" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/logo-dark.png" class="navbar-logo card-logo card-logo-dark" alt="logo dark" height="80">
-                    <img src="assets/images/logo-light.png" class="navbar-logo card-logo card-logo-light" alt="logo light" height="80">
+                    <img src="assets/images/logo-dark.png" class="card-logo card-logo-dark" alt="logo dark" height="80" style="max-height: 70; transition: max-height 0.3s ease;">
+                    <img src="assets/images/logo-light.png" class="card-logo card-logo-light" alt="logo light" height="80" style="max-height: 100px; transition: max-height 0.3s ease;">
                 </a>
                 <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="mdi mdi-menu"></i>
                 </button>
+
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
